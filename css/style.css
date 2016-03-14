@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: darkslategray;
+    overflow: hidden;
+}
+
+.header-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+    height: 60px;
+    background-color: darkslategray;
+}
+
+.header-wrap img {
+    position: absolute;
+    bottom: -20px;
+    width: 150px;
+    height: 90px;
+}
+
+.guide {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: darkslategray;
+}
+
+.guide ul li {
+    float: left;
+    margin-left: 24px;
+    background-color: darkslategray;
+}
+
+.passage {
+    margin: 20px auto;
+    width: 1200px;
+    overflow: hidden;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    background-color: white;
+}
+
+.passage-wrap {
+    width: 95%;
+    margin: 20px auto 30px auto;
+}
+
+
+.passage h2:first-child {
+    margin-bottom: 20px;
+}
+
+.passage h2:nth-child(2) {
+    margin-bottom: 15px;
+    color: grey;
+    font-size: 120%
+}
+
+.author {
+    color: grey;
+    font-size: 100%;
+    margin-bottom: 10px;
+    display:inline-block;
+}
+
+.date {
+    color: grey;
+    font-size: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.passage img {
+    margin: 15pt 0;
+}
+
+.passage ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.passage ol li {
+    margin: 0 40px;
+}
+
+.passage ol {
+    margin-bottom: 10px;
+}
+
+.passage ul {
+    margin-bottom: 10px;
+}
+
+.passage table {
+    border-collapse: collapse;
+    width:100%;
+    border: 1px solid grey;
+}
+
+.passage td {
+    padding-left: 10px;
+    height: 25px;
+}
+
+.passage th {
+    padding-left: 10px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.ttail td {
+    background-color: lightgrey;
+}
+
+.picture {
+    margin: 20px auto;
+    width: 1200px;
+    overflow: hidden;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    background-color: white;
+}
+
+.picture-wrap {
+    width: 95%;
+    margin: 20px auto 30px auto;
+}
+
+.picture-wrap figure {
+    margin: 0 20px;
+}
+
+.picture-wrap h2 {
+    margin-bottom: 20px;
+}
+
+.picture-wrap figure {
+    border: 1px solid lightgrey;
+    margin: 20px 20px;
+    width: 120px;
+    height: 140px;
+    text-align: center;
+}
+
+.picture-wrap figure img {
+    width: 100px;
+    height: 100px;
+    margin: auto auto;
+}
+
+.picture-wrap figure figcaption {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.sideline {
+    margin: 20px auto;
+    width: 1200px;
+    overflow: hidden;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    background-color: white;
+}
+
+.sideline-wrap {
+    width: 95%;
+    margin: 20px auto 30px auto;
+}
+
+
+.sideline-wrap form {
+    margin: 0;
+    display: inline;
+}
+
+.sideline-wrap span {
+    text-align: right;
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 10pt;
+    vertical-align: top;
+}
+
+.sideline-wrap .hint {
+    text-align: left;
+    color: grey;
+    opacity: 0.75;
+}
+
+.sideline-wrap .mark {
+    height: 40px;
+    width: 5px;
+    margin: 0px 10px -10px 0;
+    background-color: lightgrey;
+}
+
+.sideline-wrap h2 {
+    margin-bottom: 20px;
+}
+
+.form-wrap {
+    width: 100%;
+    margin: 0 200px;
+}
+
+.submit {
+    display:block;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: -200px;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+
+.form-wrap textarea {
+    width: 500px;
+    height: 150px;
+}
+
