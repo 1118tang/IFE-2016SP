@@ -4,12 +4,18 @@
     font-family: Segoe Print;
 }
 
+figure img {
+    width: 80px;
+    height: 80px;
+}
+
 .column {
     float: left;
 }
 
 .wrap {
     overflow: hidden;
+    height: 500px;
     max-height: 800px;
     background-color: #eee;
     border: 1px solid #999;
@@ -31,9 +37,8 @@
 }
 
 #left-wrap figure img {
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
+
+    margin-top: 30px;
     float: left;
 }
 
@@ -47,10 +52,23 @@
     padding: 0;
     background-color: white;
     width: 100%;
-    height: 300px;
     margin-left: -20px;
     padding-right: 40px;
     border: 1px solid #999;
+    overflow: hidden;
+}
+
+#right-wrap figure {
+    float: left;
+    padding: 0 20px;
+}
+
+#right-wrap figure figcaption {
+    padding: 0 0 10px 0;
+}
+
+#right-wrap figure img {
+    padding: 0;
 }
 
 #center {
