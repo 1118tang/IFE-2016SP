@@ -236,6 +236,8 @@ body {
     margin-left: -200px;
     background-color: blueviolet;
     margin-top: 10px;
+    font-size: 100%;
+    color: white;
 }
 
 .form-wrap textarea {
@@ -243,3 +245,16 @@ body {
     height: 150px;
 }
 
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 120%;
+}
