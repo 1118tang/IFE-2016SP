@@ -50,8 +50,8 @@ body {
 }
 
 .passage {
-    margin: 20px auto;
-    width: 1200px;
+    margin: 20px 20px;
+    width: 800px;
     overflow: hidden;
     border-bottom: 3px solid grey;
     border-right: 3px solid grey;
@@ -134,8 +134,8 @@ body {
 }
 
 .picture {
-    margin: 20px auto;
-    width: 1200px;
+    margin: 20px 20px;
+    width: 800px;
     overflow: hidden;
     border-bottom: 3px solid grey;
     border-right: 3px solid grey;
@@ -163,6 +163,7 @@ body {
     width: 120px;
     height: 140px;
     text-align: center;
+    display: inline-block;
 }
 
 .picture-wrap figure img {
@@ -177,8 +178,9 @@ body {
 }
 
 .sideline {
-    margin: 20px auto;
-    width: 1200px;
+    float: right;
+    margin: 20px;
+    width: 480px;
     overflow: hidden;
     border-bottom: 3px solid grey;
     border-right: 3px solid grey;
@@ -189,7 +191,7 @@ body {
 
 .sideline-wrap {
     width: 95%;
-    margin: 20px auto 30px auto;
+    margin: 20px;
 }
 
 
@@ -201,15 +203,16 @@ body {
 .sideline-wrap span {
     text-align: right;
     display: inline-block;
-    width: 300px;
+    width: 120px;
     margin-bottom: 10pt;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .sideline-wrap .hint {
     text-align: left;
     color: grey;
     opacity: 0.75;
+    width: 240px;
 }
 
 .sideline-wrap .mark {
@@ -225,15 +228,14 @@ body {
 
 .form-wrap {
     width: 100%;
-    margin: 0 200px;
+    margin: 0 20px;
 }
 
 .submit {
     display:block;
-    width: 100%;
+    width: 400px;
     height: 40px;
     border-radius: 10px;
-    margin-left: -200px;
     background-color: blueviolet;
     margin-top: 10px;
     font-size: 100%;
@@ -241,15 +243,16 @@ body {
 }
 
 .form-wrap textarea {
-    width: 500px;
+    width: 240px;
     height: 150px;
+    vertical-align: top;
 }
 
 
 .footer {
     width: 100%;
     background-color: black;
-    height: 100px;
+    height: 80px;
 }
 
 .footer p {
