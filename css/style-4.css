@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.center-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.centerdiv {
+    height: 200px;
+    width: 400px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.quarter {
+    background-color: #fc0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+
+#lt {
+    border-radius: 0 0 50px 0;
+    left: 0;
+    top: 0;
+}
+
+#rb {
+    border-radius: 50px 0 0 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*
+1. minus margin
+determined width/height
+
+2. flex
+display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+3. transform
+transform: translate(-50%,-50%);
+
+4. table
+display: table
+display: table-cell
+vertical-align: middle;*/
