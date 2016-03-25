@@ -59,13 +59,13 @@
          */
         /*创建文档碎片节点, 替代上面维护性差的方法.
         var liFragment = document.createDocumentFragment();
-        for (var i = 1; i <= newData.length; i++) {
-            var li = document.createElement('li');
-            var text = document.createTextNode('第' + i + '名: ' + newData[i - 1].join(', '));
-            li.appendChild(text);
-            liFragment.appendChild(li);
-        }
-        document.getElementById('aqi-list').appendChild(liFragment);
+         for (var i = 1; i <= newData.length; i++) {
+         var li = document.createElement('li');
+         var text = document.createTextNode('第' + i + '名: ' + newData[i - 1].join(', '));
+         li.appendChild(text);
+         liFragment.appendChild(li);
+         }
+         document.getElementById('aqi-list').appendChild(liFragment);
          */
     })();
 
